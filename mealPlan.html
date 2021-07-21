@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Meal Plan</title>
+        <style>
+            div.mealPlanInfo { 
+                clear: both;
+                color: white; 
+            }
+            h3.title { 
+                color: white;
+                text-align: center;
+                font-size: 35px;
+            }
+            h3.innerTitle { 
+                text-align: left;
+                color: red;
+                padding-left: 60px;
+                font-size: 27px;
+            }
+            h3.BMITitle { 
+                text-align: left;
+                padding-left: 92px;
+                font-size: 24px;
+            }
+            h4.BMIvalue { 
+                text-align: left;
+                padding-left: 130px;
+                font-size: 20px;
+                color: red; 
+            }
+            /* Styling for description lists */
+            dl { 
+                padding-left: 90px; 
+            }
+            dt { 
+                font-size: 24px;
+                font-weight: bold;
+                line-height: 2.6;
+            }
+            dd{ 
+                font-size: 20px;
+                color: red;
+                line-height: 2;
+            }
+
+            /* Styling for the two images */
+            img.carbsImage { 
+                width: 40%; 
+                float: right; 
+            }
+
+            img.proteinImage { 
+                width: 40%; 
+                float: right; 
+            }
+        </style>
+        <script type="text/javascript" src="workoutUtility.js"></script>
+    </head>
+    <body>
+        <!--Links to go to the other pages-->
+        <div class="nav">
+            <a class="navLinks" href="information.html">MORE INORMATION ON PLANS</a>
+            <a class="navLinks" href="workout.html">WORKOUT PLAN</a>
+            <a class="navLinks" href="main.html">HOME</a>
+            <img class = "logo" src="https://image.freepik.com/free-vector/flat-design-fitness-logo-template_23-2148230418.jpg" alt = "Fitness Logo">
+        </div>
+        <!--Div for information about meal plan in list format-->
+        <div class="mealPlanInfo">
+            <h3 class="title">Meal Plan for Bodybuilding: What to Eat and Avoid</h3>
+            <h3 class="innerTitle">Calorie Needs and Macronutrients</h3>
+            <!--Description List for calories-->
+            <dl>
+                <dt>Calories</dt>
+                <dd>- During your bulking phase, it is recommended to increase your calorie by 15%</dd>
+                <dd>- Calculate your maintence calorie and multiply it by 15% and that should be amount you should intake</dd>
+                <dd>- For people who are underweight, it is also recommended to intake 3000+ calories every day to gain weight</dd>
+            </dl>
+            <img class="carbsImage" src="https://www.healthifyme.com/blog/wp-content/uploads/2020/01/carbohydrates-1.jpg" alt="carbohydrates" />
+            <!--Description List for macronutrients-->
+            <dl>
+                <dt>Macronutrients</dt>
+                <dd>- To gain weight, you must determine your macronutrient ratio</dd>
+                <dd>- 30-35% of your calories from protein</dd>
+                <dd>- 55-60% of your calories from carbohydrate</dd>
+                <dd>- 15-20% of your calories from fat</dd> 
+                <dt>Foods to Eat</dt>
+                <dd>- Meats, Poultry and Fish for more protein</dd>
+                <dd>- Dairy Products: Yogurt, Cheese, and Milk</dd>
+                <dd>- Fruits: Oranges, Apples, Banana, Berries, Pineapple</dd>
+                <dd>- Vegetables: Broccoli, Spinach, Tomatoes, Mushrooms, Peppers</dd>
+                <dd>- Seeds and Nuts: Almonds, Walnuts, Sunflower Seeds</dd>
+            </dl>
+            <img class="proteinImage" src="https://www.healthifyme.com/blog/wp-content/uploads/2020/01/protein-1-1.jpg" alt="protein" />
+            <!--Description List for foods to avoid-->
+            <dl>
+                <dt>Foods to Avoid</dt>
+                <dd>- Fast Food: Burgers, French Fries, Onion Rings </dd>
+                <dd>- Added Sugar</dd>
+                <dd>- Any types of Alcohol</dd>
+                <!--Included anchor tag within the <dd> tag -->
+                <dd>For more information, click this <a style="color:red;" href="https://www.healthline.com/nutrition/bodybuilding-meal-plan#word-of-caution" target="_blank">link</a></dd>
+            </dl>
+            <h3 class="BMITitle">Calculate your BMI below</h3>
+            <h4 class="BMIvalue">Enter your height (in meters) <input type="text" id="height"></h4>
+            <h4 class="BMIvalue">Enter your weight (in kg) <input type="text" id="weight"></h4>
+            <h4 style="padding-left: 250px;"><button type="button" onclick="calculateBMI()">Calculate BMI</button></h4>
+            <h4 class="BMIvalue" id="BMIcalculated"></h4>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Workout Plan</title>
+        <style>
+            div.workoutPlan { 
+                clear: both;
+            }
+            /* Styling for the table which includes the workout plan*/
+            table, th, td { 
+                width: 1000px; 
+                border: 1px dotted red;
+                color: white;
+                text-align: center;
+                margin-left: auto; /* To align it in the middle of the page */
+                margin-right: auto; /* To align it in the middle of the page */
+            }
+            h3.title { 
+                color: white;
+                text-align: center;
+            }
+            div.workoutVid { 
+                clear: both;
+            }
+            h3.titleWorkout { 
+                color: white;
+                text-align: center;
+                font-size: 35px;
+            }
+            p.homeWorkouts { 
+                color:white; 
+                text-align: center;
+                font-size: 22px;
+            }
+        </style>
+        <script type="text/javascript" src="workoutUtility.js"></script>
+    </head>
+    
+    <body>
+        <!--Includes the links to the other pages-->
+        <div class="nav">
+            <a class="navLinks" href="information.html">MORE INORMATION ON PLANS</a>
+            <a class="navLinks" href="mealPlan.html">MEAL PLAN</a>
+            <a class="navLinks" href="main.html">HOME</a>
+            <img class = "logo" src="https://image.freepik.com/free-vector/flat-design-fitness-logo-template_23-2148230418.jpg" alt = "Fitness Logo">
+        </div>
+        <!--Div for the workout plan for the viewers - used row span -->
+        <div class="workoutPlan">
+            <h3 class="titleWorkout">Workout Plan</h3>
+            <!--First workout -->
+            <h3 class="title">Day 1 Workout: Chest and Triceps</h3>
+            <table>
+                <tr>
+                    <th>Workout</th>
+                    <th>Repetition</th>
+                    <th style="width: max-content;">Weight</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">Bench Press</td>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Dumbell Shoulder Press</td>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Chest Flys (DB or Machine)</td>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Incline Dumbell Press</td>
+                    <td>6</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Tricep Extensions</td>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Lateral Shoulder Raises</td>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Skull Crushers</td>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+            </table>
+            <!--Second workout-->
+            <h3 class="title">Day 2 Workout: Back and Biceps</h3>
+            <table>
+                <tr>
+                    <th>Workout</th>
+                    <th>Repetition</th>
+                    <th style="width: max-content;">Weight</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">Barbell Rows</td>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Lat Pull Downs</td>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Barbell Curls</td>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Face Pulls</td>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Cable Rows</td>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Dumbell Shrugs</td>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Dumbell Curls</td>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+            </table>
+            <!--Third workout-->
+            <h3 class="title">Day 3 Workout: Legs</h3>
+            <table>
+                <tr>
+                    <th>Workout</th>
+                    <th>Repetition</th>
+                    <th style="width: max-content;">Weight</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">Squats</td>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Dumbell Lunges</td>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Leg Extensions</td>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Hamstring curls</td>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Calf Raises</td>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Good Morning</td>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Leg Press</td>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+        <!--Links to other helpful videos on YouTube-->
+        <div class="workoutVid">
+            <h3 class="title">Videos on Workout</h3>
+            <iframe width="460" height="345" src="https://www.youtube.com/embed/_kLBi8tF6Kk"></iframe>
+            <iframe width="460" height="345" src="https://www.youtube.com/embed/QVz0tXw7-FE"></iframe>
+            <object width="460" height="345" data="https://www.youtube.com/embed/3IQVNjWH60A"></object>
+        </div>
+
+        <div class="homeWorkouts">
+            <h3 class="titleWorkout">Are you interested in Home Workouts?</h3>
+            <p class="homeWorkouts"><button type="button" onclick="showHomeWorkouts()">Click Here</button> to see <input type="text" id="numberOfWorkouts"> Home Workouts</p>
+            <p class="homeWorkouts" id="listOfWorkouts"></p>
+        </div>
+    </body>
+</html>
